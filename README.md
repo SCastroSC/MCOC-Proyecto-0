@@ -4,7 +4,7 @@ MCOC-Proyecto-0
 
 # Introducción 
 
-En este proyecto se ilustrará mediante el ejemplo del cálculo de la esperanza de una función de probabilidad, la pérdida de significancia. 
+En este proyecto se ilustrará mediante el ejemplo del cálculo de la esperanza de una función de probabilidad la pérdida de significancia. 
 
 # Cálculo de la esperanza 
 
