@@ -28,10 +28,33 @@ Se utilizaron dos gráficos debido a que el error al comparar los datos `dtype=n
 
 Output de la consola: 
 
-`N = 128`
-`Esperanza_1 =  35961.8671875 Error_1 =  -0.00319150616015 %`
-`Esperanza_2 = 35963.0150548 Error_2 =  2.93313793364e-07 %`
-`Esperanza_3 = 35963.0149493 Error_3 =  0.0 %`
+```
+N = 128
+Esperanza_1 =  35961.8671875 Error_1 =  -0.00319150616015 %
+Esperanza_2 = 35963.0150548 Error_2 =  2.93313793364e-07 %
+Esperanza_3 = 35963.0149493 Error_3 =  0.0 %
+N = 256
+Esperanza_1 =  166030.394531 Error_1 =  -0.000285208993822 %
+Esperanza_2 = 166030.868602 Error_2 =  3.22650830947e-07 %
+Esperanza_3 = 166030.868066 Error_3 =  0.0 %
+N = 512
+Esperanza_1 =  753726.925781 Error_1 =  -0.000602229178051 %
+Esperanza_2 = 753731.466687 Error_2 =  2.27569834482e-07 %
+Esperanza_3 = 753731.464972 Error_3 =  0.0 %
+N = 1024
+Esperanza_1 =  3375469.46875 Error_1 =  -0.000703932850825 %
+Esperanza_2 = 3375493.23433 Error_2 =  1.29640431375e-07 %
+Esperanza_3 = 3375493.22996 Error_3 =  0.0 %
+N = 2048
+Esperanza_1 =  14949235.0703 Error_1 =  0.000117867501319 %
+Esperanza_2 = 14949217.4609 Error_2 =  7.27694185697e-08 %
+Esperanza_3 = 14949217.45 Error_3 =  0.0 %
+N = 4096
+Esperanza_1 =  65597289.4453 Error_1 =  0.000118770338351 %
+Esperanza_2 = 65597211.5854 Error_2 =  7.64372449085e-08 %
+Esperanza_3 = 65597211.5353 Error_3 =  0.0 %
+```
+
 
 
 
