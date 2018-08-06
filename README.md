@@ -9,13 +9,13 @@ En este proyecto se ilustrará mediante el ejemplo del cálculo de la esperanza 
 # Cálculo de la esperanza 
 
 En este ejemplo se utilizará como función de probabilidad f(x) = log(x). La esperanza se define como la sumatoria del valor de la variable por su probabilidad, así se observará como a medida que se aumenta el número de datos el error relativo va cambiando. 
-Para esto se definió en python la función esperanza para tres distintos tipos de datos, 'dtype=np.float16', 'dtype=np.float32' y por último 'dtype=np.float64'. Se consideró como el tipo de datos con mayor presición 'dtype=np.float64' y se calculó el error de los otros dos a partir de este. 
+Para esto se definió en python la función esperanza para tres distintos tipos de datos, `dtype=np.float16`, `dtype=np.float32` y por último `dtype=np.float64`. Se consideró como el tipo de datos con mayor presición 'dtype=np.float64' y se calculó el error de los otros dos a partir de este. 
 
 # Output 
 
 Para el cálculo del error relativo se utilizó la siguiente fórmula, 
 
-'ERROR = (Promedio_Calculado - Resultado_Exacto) / Resultado_Exacto'
+`ERROR = (Esperanza_Calculado - Resultado_Exacto) / Resultado_Exacto`
 
 A continuación, se presentan los gráficos donde se ilustra los cambios en el error relativo según el uso de datos que se utilizó.
 
@@ -23,12 +23,12 @@ A continuación, se presentan los gráficos donde se ilustra los cambios en el e
 
 ![Results](loss-of-significance2.png) 
 
-Se utilizaron dos gráficos debido a que el error al comparar los datos 'dtype=np.float36' y 'dtype.float64' son números muy pequeños en comparación con el error de los datos 'dtype=np.float16' y 'dtype.float64' que no se alcanzan a apreciar en un solo gráfico. 
+Se utilizaron dos gráficos debido a que el error al comparar los datos `dtype=np.float36` y `dtype.float64` son números muy pequeños en comparación con el error de los datos `dtype=np.float16` y `dtype.float64` que no se alcanzan a apreciar en un solo gráfico. 
 
 
 Output de la consola: 
 
-'N = 128
+`N = 128
 Esperanza_1 =  35961.8671875 Error_1 = 0.00319150616015 %
 Esperanza_2 = 35963.0150548 Error_2 =  2.93313793364e-07 %
 Esperanza_3 = 35963.0149493 Error_3 =  0.0 %
@@ -51,7 +51,7 @@ Esperanza_3 = 14949217.45 Error_3 =  0.0 %
 N = 4096
 Esperanza_1 =  65597289.4453 Error_1 =  0.000118770338351 %
 Esperanza_2 = 65597211.5854 Error_2 =  7.64372449085e-08 %
-Esperanza_3 = 65597211.5353 Error_3 =  0.0 %'
+Esperanza_3 = 65597211.5353 Error_3 =  0.0 %`
 
 
 ￼
